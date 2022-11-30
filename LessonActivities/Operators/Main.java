@@ -13,5 +13,24 @@ class Main {
         input.close();
 
         System.out.println(x + y);
+        System.out.println(x - y);
+        System.out.println(x / y);
+        System.out.println(x % y);
+
+        System.out.println("Post-Increment Operator:");
+        int post = 10;
+        System.out.println(post++);
+        System.out.println(post);
+
+        System.out.println("Pre-Increment Operator:");
+        int pre = 10;
+        System.out.println(++pre);
+        System.out.println(pre);
+
+
+        
+
+
+
     }
 }
