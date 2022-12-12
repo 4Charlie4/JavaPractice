@@ -2,6 +2,7 @@ package LessonActivities.Class;
 
 class BankAccount {
     //These are known as states
+    
     String accountHolder;
     double accountValue;
 //Method

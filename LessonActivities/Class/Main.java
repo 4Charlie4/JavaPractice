@@ -8,5 +8,7 @@ public class Main {
        account.accountValue = 99.99;
        System.out.println(account.accountHolder);
        System.out.println(account.accountValue);
+
+       account.printInfo();
     }
 }
